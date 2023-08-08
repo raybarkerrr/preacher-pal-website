@@ -25,7 +25,7 @@ header a {
 
 header {
   padding: 0 20px;
-  background-color: rgba(12, 181, 239, 1);
+    background-color: #1e549f;
   height: 70px;
   display: flex;
   justify-content: space-between;
@@ -148,7 +148,7 @@ ul a {
   }
 
   .feature-left span{
-    color: rgba(12, 181, 239, 1);
+    color: #1e549f;
   }
 
   .feature-left h1{
@@ -201,7 +201,7 @@ ul a {
   .what-we-do-section{
     padding-top: 6rem;
     padding-bottom: 4rem;
-    background-color: rgba(12, 181, 239, 1);
+    background-color: #1e549f;
 
   }
 
@@ -299,7 +299,7 @@ ul a {
   }
 
   .business-model-title span{
-    color: #0092ca;
+    color: #1e549f;
   }
 
   .business-bottom {
@@ -365,7 +365,7 @@ ul a {
   }
 
   .about-me span{
-    color: #0092ca;
+    color: #1e549f;
   }
   
 
@@ -414,7 +414,7 @@ ul a {
   }
 
   .portfolio-title span{
-    color:#0092ca;
+    color: #1e549f;
   }
 
 
@@ -449,7 +449,7 @@ ul a {
   }
 
   .for-you-title span{
-    color: #0092ca;
+    color: #1e549f;
   }
 
   .for-you-content{
@@ -490,7 +490,7 @@ ul a {
     .contact-form-title h1{
       font-size: 2rem;
       letter-spacing: .1rem;
-      color: rgba(12, 181, 239, 1);
+      color: #1e549f;
       padding-bottom: 1rem;
     }
   
@@ -554,7 +554,7 @@ ul a {
     display: flex;
     justify-content: center;
     text-align: center;
-    background-color: #0092ca;
+    background-color: #1e549f;
     padding-top: 2rem;
   }
 
@@ -783,7 +783,7 @@ font-size: 17.6px;
   }
 
   .for-you-title span{
-    color: #0092ca;
+    color: #1e549f;
   }
 
   .for-you-content{
@@ -833,7 +833,7 @@ font-size: 17.6px;
       border: 0;
       padding: .8em;
       font-size: 17px;
-      background-color: rgba(12, 181, 239, 1);
+      background-color: #1e549f;
       color: white;
       cursor: pointer;
     }
