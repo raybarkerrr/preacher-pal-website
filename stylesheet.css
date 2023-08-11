@@ -113,15 +113,13 @@ ul a {
 
  /* Communication Section*/
 
- .communication{
+ .communication {
   display: flex;
-  justify-content: center;
-  padding: 1.5rem;
+  flex-direction: column;
+  text-align: center;
  }
 
- .number{
-  padding-right: 5rem;
- }
+
 
       /* Home Container Section */
 
@@ -438,7 +436,19 @@ ul a {
 
   @media only screen and (min-width: 1024px)  {
 
+    /*Communication */
+
+    .communication{
+      display: flex;
+      flex-direction: row;
+
+      justify-content: center;
+      padding: 1.5rem;
+     }
     
+     .number{
+      padding-right: 5rem;
+     }
 
     /* Home Container Section */
 
