@@ -253,9 +253,6 @@ ul a {
     padding-top: 1em;
   }
 
-  .what-we-do-content img{
-    width: 100%;
-  }
 
   /* What We Do Section 2*/
 
@@ -747,7 +744,7 @@ font-size: 17.6px;
         left: 0;
         height: 40vh;
         width: 100%;
-        background-color: rgba(12, 181, 239, 1);
+        background-color: #1e549f;
         display:block;
       }
 
@@ -778,7 +775,7 @@ font-size: 17.6px;
       left: 0;
       height: 40vh;
       width: 100%;
-      background-color: rgba(12, 181, 239, 1);
+      background-color: #1e549f;
       display:block;
     }
 
