@@ -111,6 +111,18 @@ ul a {
   color: white;
 }
 
+ /* Communication Section*/
+
+ .communication{
+  display: flex;
+  justify-content: center;
+  padding: 1.5rem;
+ }
+
+ .number{
+  padding-right: 5rem;
+ }
+
       /* Home Container Section */
 
     .landing-section{
@@ -202,7 +214,6 @@ ul a {
     padding-top: 6rem;
     padding-bottom: 4rem;
     background-color: #1e549f;
-
   }
 
   .what-we-do-title{
@@ -240,6 +251,48 @@ ul a {
   }
 
   .what-we-do-content img{
+    width: 100%;
+  }
+
+  /* What We Do Section 2*/
+
+  .what-we-do-section-2{
+    padding-top: 6rem;
+    padding-bottom: 4rem;
+    background-color: white;
+  }
+
+  .what-we-do-title-2{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 900;
+    padding-bottom: 1em;
+  }
+
+  .what-we-do-title-2 h1{
+    margin-right: 10px;
+    color: black;
+  }
+
+  .what-we-do-title-content-2{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 2% 7% 2% 7%;
+    color: black;
+  }
+
+  .what-we-do-title-content-2 p{
+    font-size: 1.2em;
+    line-height: 1.7em;
+    padding-top: 1em;
+  }
+
+  .what-we-do-content-2 img{
     width: 100%;
   }
 
@@ -342,212 +395,6 @@ ul a {
     padding-right: 1rem;
   }
 
-  /* About Section */
-
-  .about-image img{
-    width: 280px;
-  }
-  
-  .about-me{
-    padding: 7% 6% 2% 6%;  
-  }
-
-  .about-me h1{
-    font-size: 1.5em;
-  }
-
-  .about-me p{
-    font-family: 'Ubuntu';
-    padding-top: 1.5rem;
-    font-size: 1.2em;
-    line-height: 1.5em;
-    font-family: 'Lato', sans-serif;
-  }
-
-  .about-me span{
-    color: #1e549f;
-  }
-  
-
-  /* My Portfolio Section */
-
-  .portfolio-section{
-    padding: 15% 0% 15% 0%;  
-  }
-
-  .my-portfolio{
-    display: flex;
-    flex-direction: column;
-    padding: 3% 6% 3% 6%;  
-  }
-  
-  .card-break{
-    padding: 5% 6% 5% 6%;  
-  }
-
-  .portfolio-title{
-    text-align: center;
-    padding-bottom: 3.5rem;
-    font-size: 25px;
-  }
-
-
-  .portfolio-card img{
-    width: 100%;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    transform-style: preserve-3d;
-    transform: rotateY(-5deg) rotateX(10deg) scale(1.0);
-    border-radius: 30px;
-    overflow: hidden;
-    transition: transform 0.5s ease-in-out;
-  }
-
-  .portfolio-card:hover {
-    transform: rotateY(-5deg) rotateX(10deg) scale(1.1);
-  }
-
-  .portfolio-card h1{
-    display: flex;
-    text-align: center;
-  }
-
-  .portfolio-title span{
-    color: #1e549f;
-  }
-
-
-  /* For You Section */
-
-  .for-you-section{
-    display: flex;
-    flex-direction: column;
-  }
-
-  .for-you-title h1{
-    padding-top: 3rem;
-  }
-
-  .for-you-content p{
-    padding-top: 1rem;
-    font-family: 'Ubuntu';
-    font-size: 1.2em;
-    line-height: 1.5em;
-    padding-bottom: 2rem;
-  }
-
-  .for-you-title{
-    display: flex;
-    background-color: #f1f1f1;
-    padding: 2% 7% 2% 7%;    
-    justify-content: center;
-  }
-
-  .for-you-content{
-    background-color: #f1f1f1;
-  }
-
-  .for-you-title span{
-    color: #1e549f;
-  }
-
-  .for-you-content{
-    padding: 2% 7% 2% 7%;   
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-  }
-
-  .fa-user{
-    display: flex;
-    justify-content: center;
-  }
-
-/* Contact Section */
-
-  .contact-info{
-    display: flex;
-    align-items: center;
-    padding: 2% 5% 2% 5%;    
-  }
-
-  .contact-info img{
-    width: 60px;
-    padding-right: 1rem;
-  }
-
-  .contact-info-bottom{
-    padding-left: 1rem;
-    font-family: 'Lato', sans-serif;
-  }
-
-    .contact-form-section{
-      text-align: center;
-      padding-top: 2rem;
-    }
-  
-    .contact-form-title h1{
-      font-size: 2rem;
-      letter-spacing: .1rem;
-      color: #1e549f;
-      padding-bottom: 1rem;
-    }
-  
-    .contact-form-title h2{
-      font-size: 1.2rem;
-      letter-spacing: .1rem;
-      padding: .5rem;
-      color: #57595B;
-    }
-  
-    .contact-form-title p{
-      font-size: .8rem;
-      font-weight: lighter;
-      letter-spacing: .1rem;
-      color: #57595B;
-    }
-  
-    .form-labels{
-      background-color: #f1f1f1;
-      padding-top: 3rem;
-      padding-bottom: 2rem;
-    }
-  
-    .contact-form-section p{
-      padding: .5rem;
-    }
-  
-    .input-field{
-      width: 80%;
-      height: 50px;
-      border-radius: 8px;
-      border: 1px solid #ccc;
-      padding: .9em;
-      box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
-    }
-  
-    .input-field-message{
-      width: 80%;
-      height: 200px;
-      border-radius: 8px;
-      resize: none;
-      border: 1px solid #ccc;
-      padding: .8em;
-      box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
-    }
-  
-    .form-button{
-      width: 5em;
-      width: 25%;
-      border-radius: 8px;
-      border: 0;
-      padding: .8em;
-      background-color: rgba(12, 181, 239, 1);
-      color: white;
-      cursor: pointer;
-    }
-
       /* Footer Section */
 
   .footer-section{
@@ -577,18 +424,6 @@ ul a {
   .fa-brands{
     color: white;
     font-size: 2em;
-  }
-
-  /* Contact Section */
-
-  .contact-image img{
-    width: 100%;
-  }
-
-  .line{
-    width: 5px;
-    height: 43px;
-    background-color: #0092ca;
   }
 
   @media only screen and (min-width: 1024px)  {
