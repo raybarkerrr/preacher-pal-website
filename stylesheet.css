@@ -119,6 +119,11 @@ ul a {
   text-align: center;
  }
 
+ .number{
+  padding-bottom: 1.5rem;
+
+ }
+
 
 
       /* Home Container Section */
@@ -441,7 +446,6 @@ ul a {
     .communication{
       display: flex;
       flex-direction: row;
-
       justify-content: center;
       padding: 1.5rem;
      }
