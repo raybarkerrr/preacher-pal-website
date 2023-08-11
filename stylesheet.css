@@ -297,7 +297,7 @@ ul a {
   }
 
   .what-we-do-title-content-2 img{
-    width: 30%;
+    width: 100%;
     padding-bottom: 4rem;
   }
 
@@ -401,6 +401,9 @@ ul a {
     font-size: 1.2rem;
     padding-right: 1rem;
   }
+
+  /*What we do 2 */
+
 
       /* Footer Section */
 
@@ -646,6 +649,13 @@ font-size: 17.6px;
 
   .what-we-do-content p{
     padding: 0% 10% 0% 10%;
+  }
+
+  /*What we do 2*/
+
+  .what-we-do-title-content-2 img{
+    width: 30%;
+    padding-bottom: 4rem;
   }
 
   /* Input Field Section */
